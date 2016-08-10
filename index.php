@@ -245,7 +245,7 @@ function get_redirect_url($hash) {
       return 'https://www.youtube.com/watch?v=eg5Qh4anBZE';
 
     default:
-      return 'http://youtube.com/c/howtovoteineverystate';
+      return 'https://youtube.com/c/howtovoteineverystate';
   }
 }
 
