@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^howtovoteineverystate\.com [NC]
+RewriteCond %{REQUEST_URI} !^/$ [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^\.]+)$ /index.php?hash=$1
