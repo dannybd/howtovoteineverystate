@@ -238,14 +238,15 @@ function get_redirect_url($hash) {
     case 'mariana-islands':
     case 'marianaislands':
       return 'https://www.youtube.com/watch?v=QwMyflTCFLc';
-      
+
     case 'military':
     case 'overseas':
     case 'abroad':
       return 'https://www.youtube.com/watch?v=eg5Qh4anBZE';
 
+    // For everything else, just go to the channel's page
     default:
-      return 'https://youtube.com/c/howtovoteineverystate';
+      return 'https://www.youtube.com/c/howtovoteineverystate';
   }
 }
 
